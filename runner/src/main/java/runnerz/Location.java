@@ -1,4 +1,4 @@
-package run;
+package runnerz;
 
 public enum Location {
     INDOOR, OUTDOOR

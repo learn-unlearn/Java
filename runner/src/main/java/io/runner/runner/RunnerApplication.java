@@ -7,8 +7,8 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
-import run.Location;
-import run.Run;
+import runnerz.Location;
+import runnerz.Run;
 
 import java.time.LocalDateTime;
 import java.time.temporal.ChronoUnit;
@@ -22,7 +22,7 @@ public class RunnerApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(RunnerApplication.class, args);
 		log.info("Application Started Successfully");
-		log.info("Something Changed");
+//		log.info("Something Changed");
 //		ConfigurableApplicationContext context =  SpringApplication.run(RunnerApplication.class, args);
 
 //		WelcomeMessage welcomeMessage = (WelcomeMessage) context.getBean('WelcomeMessage');
